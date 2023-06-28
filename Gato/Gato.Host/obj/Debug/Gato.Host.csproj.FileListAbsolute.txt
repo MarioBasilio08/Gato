@@ -1,0 +1,11 @@
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.csproj.AssemblyReference.cache
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.csproj.SuggestedBindingRedirects.cache
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.csproj.CoreCompileInputs.cache
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\bin\Debug\Gato.Host.exe.config
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\bin\Debug\Gato.Host.exe
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\bin\Debug\Gato.Host.pdb
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.exe
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.pdb
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\bin\Debug\Gato.Core.dll
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\bin\Debug\Gato.Core.pdb
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Host\obj\Debug\Gato.Host.csproj.CopyComplete

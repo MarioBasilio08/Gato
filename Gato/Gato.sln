@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gato.Host", "Gato.Host\Gato.Host.csproj", "{813E21DE-6324-4624-9241-010BFAC6BD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gato.Client", "Gato.Client\Gato.Client.csproj", "{8306CE16-86F1-4076-B60F-5A73ECFAE710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gato.Core", "Gato.Core\Gato.Core.csproj", "{4972A2AD-4BFC-4A9D-B81E-693399B8923D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813E21DE-6324-4624-9241-010BFAC6BD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813E21DE-6324-4624-9241-010BFAC6BD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813E21DE-6324-4624-9241-010BFAC6BD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813E21DE-6324-4624-9241-010BFAC6BD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8306CE16-86F1-4076-B60F-5A73ECFAE710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8306CE16-86F1-4076-B60F-5A73ECFAE710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8306CE16-86F1-4076-B60F-5A73ECFAE710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8306CE16-86F1-4076-B60F-5A73ECFAE710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4972A2AD-4BFC-4A9D-B81E-693399B8923D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4972A2AD-4BFC-4A9D-B81E-693399B8923D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4972A2AD-4BFC-4A9D-B81E-693399B8923D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4972A2AD-4BFC-4A9D-B81E-693399B8923D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ACDD2AD-EE73-4093-A9EA-076D50C022AC}
+	EndGlobalSection
+EndGlobal

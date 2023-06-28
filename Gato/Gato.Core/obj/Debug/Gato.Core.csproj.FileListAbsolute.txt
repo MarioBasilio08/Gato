@@ -1,0 +1,6 @@
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\bin\Debug\Gato.Core.dll
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\bin\Debug\Gato.Core.pdb
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\obj\Debug\Gato.Core.csproj.AssemblyReference.cache
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\obj\Debug\Gato.Core.csproj.CoreCompileInputs.cache
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\obj\Debug\Gato.Core.dll
+D:\Trabajo\Ejercicios\Gato\Gato\Gato.Core\obj\Debug\Gato.Core.pdb

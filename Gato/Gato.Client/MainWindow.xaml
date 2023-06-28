@@ -1,0 +1,102 @@
+﻿<Window x:Class="Gato.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Gato.Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="TextName" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="180"  materialDesign:HintAssist.Hint="Name" />
+            <Button Grid.Column="2" Click="Button_Click_Conect" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <materialDesign:PackIcon Kind="Cone" Margin="0,0,5,0" />
+                    <TextBlock Text="Conectar" />
+                </StackPanel>
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla00" Text="{Binding Casilla00}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="1" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla01" Text="{Binding Casilla01}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="2" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla02" Text="{Binding Casilla02}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+
+                <Grid Grid.Row="1" Grid.Column="0" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla10" Text="{Binding Casilla10}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla11" Text="{Binding Casilla11}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="2" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla12" Text="{Binding Casilla12}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+
+                <Grid Grid.Row="2" Grid.Column="0" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla20" Text="{Binding Casilla20}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="1" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla21" Text="{Binding Casilla21}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="2" Background="LightGray" MouseLeftButtonDown="Grid_Click">
+                    <TextBlock x:Name="Casilla22" Text="{Binding Casilla22}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="TextStatus" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Content="Desconectado"/>
+
+            <Button Grid.Column="2" Click="Button_Click_Diconect" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <materialDesign:PackIcon Kind="ConeOff" Margin="0,0,5,0" />
+                    <TextBlock Text="Desconectar" />
+                </StackPanel>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
